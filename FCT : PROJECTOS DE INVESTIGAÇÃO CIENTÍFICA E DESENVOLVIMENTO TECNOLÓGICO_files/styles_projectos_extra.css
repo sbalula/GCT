@@ -1,0 +1,178 @@
+/* CSS Document
+Extra CSS incompatible with portal before 11/2008 (complaints to JPM) */
+
+body{text-align:center;
+}
+
+body * :target { background-color: #FFFCBA; }
+
+#page {text-align:left;margin:0 auto 0 auto; width:750px
+}
+
+#bigimage {border-bottom:medium dotted #ccc}
+
+#main {background-color:#f9f9f9;width:100%;margin:0}
+
+#leftmenu {float:left;padding: 1em 0;min-height:600px;width:28%;vertical-align:top;font-size:10px;text-align:left
+}
+
+#text {width:520px;vertical-align:top;padding:2em  0 0 1em;font-size:140%;min-height:700px;float:right;border-left:medium dotted #ccc
+}
+
+#visaoglobal {padding:2em  0 0 1em;font-size:140%;
+}
+
+#fundos {font-size:100%}
+
+h1 {
+font-family:"Gill Sans", Verdana, Arial, Helvetica,sans-serif;
+font-size:160%;font-weight:bold;line-height:120%;margin-top:0;color:#32445f;
+}
+
+h2 {
+color:#911;font-size:140%;line-height:120%;
+}
+
+h3 {
+color:#911;font-size:120%;line-height:120%;
+}
+
+h4 {
+font-size:110%;line-height:120%;
+}
+
+h5 {
+font-size:100%;line-height:120%;
+}
+
+h6 {
+font-size:90%;line-height:120%;
+}
+
+.en {
+font-size:90%; color:#999;font-weight:normal;
+}
+
+img {
+border:none;
+}
+
+dt{
+font-weight:bold;
+color:#555;
+}
+
+dd, li , ul{
+margin-top:1em;text-align:left
+}
+
+#fundos{
+margin:1em auto 1em auto;
+font-weight:bold;width:100%;text-align:center;font-size:9px;
+}
+
+#fundos img{
+vertical-align:middle;
+}
+
+.tabledata{
+margin:0.25em 0 0.25em 0;
+padding:0;
+font-size:100%;
+}
+
+table.tabledata{
+width:100%;
+}
+
+
+
+h4.tabledata , h5.tabledata , h6.tabledata{margin:0;padding-top:0.5em;line-height:140%;clear:both;border-top:
+thin dotted #999; background-color:#dfdfdf;}
+/* background-color:#ebeff7; #dfdfdf;*/
+
+h4.tabledata {font-size:110%}
+h5.tabledata {font-size:100%}
+h6.tabledata {font-size:100%}
+
+table.tabledata * th{text-align:left; font-weight:normal;background-color:#dfdfdf;}
+
+input.savebutton{
+margin-top:1.5em;background-color:#2d5d8d;color:#ffffff;padding:3px;
+}
+
+input.validarbutton{
+margin-top:1.5em;background-color:#007900;color:#ffffff;padding:3px;
+}
+
+input.voltarbutton{
+margin-top:1.5em;background-color:#898989;color:#ffffff;padding:3px;
+}
+
+span#label_Duracao{
+}
+
+#formulario_menu a{
+font-weight:normal
+}
+
+#localmenu {
+width:100%;
+}
+
+#localmenu ul{
+list-style:outside;padding-left:1em; 
+}
+
+
+
+#localmenu hr{
+border-top: thin dotted #ccc ;
+}
+
+.botao {
+font-family:Tahoma,Arial,sans-serif;font-size:13px;font-weight:normal;float:right
+}
+
+p.adicionar {
+text-align:right;
+}
+
+p.adicionar > a {
+color:#191;}
+
+.cancelar {
+text-align:right;
+}
+
+a.cancelar {
+color:#d51;
+}
+
+.remover {
+text-align:right;
+}
+
+a.remover {
+color:#e11;
+}
+
+.alterar {
+text-align:right;
+}
+
+a.alterar {
+color:#119;
+}
+
+.mostrar {
+text-align:right;
+}
+
+a.mostrar {
+color:#555;
+}
+
+textarea {
+overflow:auto;
+}

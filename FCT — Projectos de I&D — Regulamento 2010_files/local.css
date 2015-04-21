@@ -1,0 +1,35 @@
+/* 
+    Document   : local.css
+    Created on : 14/Ago/2011, 11:35:14
+    Author     : jmatos
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+ ul.otherbullets > li { 
+    list-style-type: square;
+    list-style-image: none;
+}
+
+ul.otherbullets > li > ul > li
+{
+    list-style-type: circle;
+    list-style-image: none;
+}
+
+ ul.nobullets > li { 
+    list-style-type: none;
+    list-style-image: none;
+}
+
+ul.nobullets > li > ul > li
+{
+    list-style-type: none;
+    list-style-image: none;
+}
+

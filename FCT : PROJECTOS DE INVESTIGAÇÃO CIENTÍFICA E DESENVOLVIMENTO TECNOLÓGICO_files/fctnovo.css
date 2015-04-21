@@ -1,0 +1,207 @@
+/* CSS Document */
+/* Body and generic */ 
+
+font.azul {
+	font-size : 10px;
+	color: #1F2847;
+}
+
+font.red  {
+        color: #92363D;
+	font-size : 10px;
+}
+
+font.gray  {
+	color: #999;
+	font-size : 10px;
+}
+
+
+font.Titulo1{
+	color: #1F2847;
+	font-size:16px;
+}
+
+font.Titulo1Small{
+	color: #1F2847;
+	font-size:12px;
+}
+
+font.Titulo1SmallGray{
+	color: gray;
+	font-size:12px;
+}
+
+
+font.Titulo2{
+	color: #940000;
+	font-size: 12px;
+}
+
+font.Titulo3{
+	color: gray;
+	font-size:16px;
+}
+
+font.Titulo4{
+	color: gray;
+	font-size: 12px;
+}
+
+font.rodape{
+	color: #595442;
+	font-size : 8px;
+}
+
+font.legenda{
+	color: #595442;
+	font-size : 10px;
+}
+
+
+tr.forms{
+	color: #595442;
+	padding:0;
+        margin:0;
+}
+
+td{
+	font-size : 11px;
+}
+
+input {
+	font-size:10px;
+	color:#000000;
+}
+
+select {
+	font-size:10px;
+	color:#000000;
+	border: 1px solid Navy;
+}
+
+input.submit {
+	font-size:10px;
+	color:#000000;
+	border: 1px solid Navy;
+	background: #CFCFCF;
+}
+
+input.submit_white {
+	font-size:10px;
+	color:#000000;
+	border: 1px dotted White;
+	background: White;
+}
+
+.afraco {
+	background:"#f3f0e1";
+	font-size: 10px;
+	color:#D7D0B3;
+}
+
+.aforte {
+	background:"#d7d0b3";
+	font-size: 10px;
+	color:#F3F0E1;
+}
+
+.fraco {
+	background:"#F3F0E1";
+	font-size: 10px;
+	color:#58411E;
+}
+
+.forte {
+	background:"#D7D0B3";
+	font-size: 10px;
+	color:#F3F0E1;
+}
+
+.rodape {
+	font-size: 9px;
+	color:#58411E;
+}
+
+.artigosSmall {
+	font-size: 9px;
+	color:#58411E;	
+	text-align:left;
+}
+
+.textoArtigos {
+	font-size: 13px;
+	color:#58411E;
+	text-align: Justify;
+}
+
+.textoInstitucional {
+	font-size: 12px;
+	color:#58411E;
+}
+
+.textoErro {
+	font-size: 13px;
+	color:#FF0000;
+	font-weight:bold;
+}
+
+.formularios{
+	background:"#F3F0E1";
+	font-size: 11px;
+	color:#58411E;
+	font-weight:bold;	
+}
+.formulariosAnuncios {
+	font-size: 10px; 
+	font-weight: 400; 
+	color: #666699; 
+}
+
+.listasTitulo {
+	font-size: 11px;
+	color:#58411E;
+	background : #D1D5F2;
+}
+.listasLinhaPar{
+	font-size: 11px;
+	color:#58411E;
+	background : #ECEEFB;
+}
+.listasLinhaImpar{
+	font-family: Verdana;
+	font-size: 11px;
+	color:#58411E;
+	background : White;
+}
+
+a{
+color: #666699;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover{
+color: #666699;
+text-decoration: underline;}
+
+a.artigos{
+color: #666699;
+text-decoration: none;}
+
+a.artigos:hover{
+color: #666699;
+text-decoration: underline;}
+
+.bold{
+font-weight: bold; color: #666699; text-decoration: none;
+}
+
+.bold:hover{
+font-weight: bold;
+color: #666699;
+text-decoration: underline;
+}
+
+
+

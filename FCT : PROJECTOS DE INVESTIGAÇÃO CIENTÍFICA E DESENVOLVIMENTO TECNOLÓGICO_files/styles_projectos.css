@@ -1,0 +1,228 @@
+/* CSS Document */
+/* Body and generic */ 
+
+html,body {
+	font: 70% Verdana, Arial, Helvetica, sans-serif;
+	color:#32445F;
+	line-height:130%;
+	background:#f9f9f9;
+}
+
+.data {
+	color:#32445F;
+	text-align:justify;
+	padding:3px;
+}
+
+.grey {
+	font-size:90%;
+	color:#999;
+}
+
+.reddata {
+	font-size:11pt;
+	color:#990000;
+}
+
+.datatitle {
+	font-size:120%;
+	color:#32445F;
+	font-variant:small-caps;
+	background:#8384B0;
+	padding:3px;
+}
+
+
+
+hr.dotted {
+	border-top: medium dotted;
+}
+
+
+/* Form Classes */
+
+input.submit_white {
+	font-size:90%;
+	color:#000000;
+	border: 1px dotted #fff;
+	background: #fff;
+}
+
+input.submit {
+	font-size:10px;
+	color:#000000;
+	border: 1px solid Navy;
+	background: #cfcfcf;
+}
+
+/* Font Classes */
+
+a {
+	color: #0C3DC9;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #bc7d3e;
+	text-decoration: none;
+}
+
+a.grey {
+	color:#999;
+	text-decoration: none;
+}
+
+a.red {
+	color:#990000;
+	line-height:15px;
+	text-decoration: none;
+}
+
+font {
+    font-size:10px;
+	color:#32445F;
+	line-height:15px;
+}
+
+font.italico {
+	color: #32445F;
+	line-height: 15px;
+	font-style: italic;
+}
+
+.small {
+	font-size: 90%;
+}
+
+font.red {
+	color:#990000;
+}
+
+font.grey_sub {
+	color:gray;
+}
+
+
+font.lightblue {
+	color:#556275;
+}
+
+/* Table data */
+
+table {
+	color:#32445F;
+}
+
+td {
+	color:#32445F;
+	line-height:15px;
+}
+
+th {
+	color: #32445F;
+	line-height: 15px;
+	background-color: #EBEFF7;
+}
+
+/* Other tags */
+
+p, ul {
+	color:#32445F;
+	line-height:15px;
+	text-align:justify;
+}
+
+input {
+	font-size:11px;
+	color:#32445F;
+	background:#ffffff;
+	border:1px solid #556275;
+}
+
+
+select {
+	font-size:11px;
+	color:#32445F;
+	line-height:15px;
+	background:#ffffff;
+}
+
+
+textarea {
+	font-size:11px;
+	color:#32445F;
+	line-height:15px;
+	text-align:justify;
+	background:#ffffff;
+	border:1px solid #556275;
+}
+
+
+/* Titulos */
+
+
+
+
+Font.Titulo2Grey {
+	color: #999;
+   font-weight: bold;
+}
+
+img {
+   vertical-align:baseline
+}
+
+
+.ajaxlist {
+	font-family:Verdana, Monospace, Arial, Helvetica, sans-serif;
+	position:absolute;
+	width:488px;
+	background-color:#eee;
+	border:1px solid #888;
+	margin:0px;
+	padding:5px;
+	font-size:11px;
+	display:none;
+	z-index:1000;
+}
+
+.ajaxlist.message {
+	font-family:Verdana, Monospace, Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:11px;
+	margin:5px;
+	color:green;
+}
+
+.ajaxlist a {
+	font-family:Verdana, Monospace, Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:11px;
+	color:black;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.ajaxlist a:hover {
+	font-family:Verdana, Monospace, Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:11px;
+	background-color:#4876FF;
+	color:#FFFFFF;
+}
+
+.ajaxlist #fechar{
+	border-top:1px solid #a4a4a4;
+	text-align:right;
+	font-size:9px;
+}
+
+.ajaxlist #fechar a{
+	color:#4876FF;
+	font-size:9px;
+}
+
+.ajaxlist #fechar a:hover{
+	color:#ffffff;
+	font-size:9px;
+}
