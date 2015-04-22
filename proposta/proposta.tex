@@ -1,0 +1,202 @@
+% ****** Start of file .tex ******
+%
+%   This file is based on apssamp.tex, part of the APS files in the REVTeX 4.1 distribution.
+%   Version 4.1r of REVTeX, August 2010
+%
+%   Copyright (c) 2009, 2010 The American Physical Society.
+%   Samuel Balula, Pedro Ribeiro, Luís Macedo, Eduardo Neto 2013
+%   See the REVTeX 4 README file for restrictions and more information.
+%
+% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
+% as well as the rest of the prerequisites for REVTeX 4.1
+%
+% See the REVTeX 4 README file
+% It also requires running BibTeX. The commands are as follows:
+%
+%  1)  latex filename.tex
+%  2)  bibtex filename
+%  3)  latex filename.tex
+%  4)  latex filename.tex
+
+\documentclass[%
+	%preprint,
+	%superscriptaddress,
+	%groupedaddress,
+	%unsortedaddress,
+	%runinaddress,
+	%frontmatterverbose, 
+	%preprint,
+	%showpacs,preprintnumbers,
+	nofootinbib,
+	%nobibnotes,
+	%bibnotes,
+	amsmath,amssymb,
+	aps,
+	%pra,
+	%prb,
+	%rmp,
+	%prstab,
+	%prstper,
+	%floatfix,
+	12pt,
+	a4paper
+]{article}
+
+\renewcommand\thesection{\arabic{section}.}
+\renewcommand\thesubsection{\thesection\arabic{subsection}.}
+\renewcommand\thesubsubsection{\thesubsection\arabic{subsubsection}.}
+
+\newcommand*{\sectionpostamble}{}
+\newcommand*{\aka}[2]{%
+  \def\sectionpostamble{#2}%
+  \section{#1}
+}
+
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+  [\normalfont\small\thesection\hspace{10pt}\sectionpostamble
+  \global\let\sectionpostamble\relax]
+%%%%%%%%%
+
+\newcommand*{\subsectionpostamble}{}
+\newcommand*{\subaka}[2]{%
+  \def\subsectionpostamble{#2}%
+  \subsection{#1}
+}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{2em}{}
+  [\normalfont\small\thesubsection\hspace{20pt}\subsectionpostamble
+  \global\let\subsectionpostamble\relax]
+%%%%%%%%%
+
+\newcommand*{\subsubsectionpostamble}{}
+\newcommand*{\subsubaka}[2]{%
+  \def\subsubsectionpostamble{#2}%
+  \subsubsection{#1}
+}
+
+\titleformat{\subsubsection}
+  {\normalfont\bfseries}{\thesubsubsection}{3em}{}
+  [\normalfont\small\thesubsubsection\hspace{30pt}\subsubsectionpostamble
+  \global\let\subsubsectionpostamble\relax]
+%%%%%%%%%
+
+\usepackage{verbatim}                   % Apresentação de código
+\usepackage{graphicx}                   % Include figure files
+\usepackage{dcolumn}                    % Align table columns on decimal point
+\usepackage{bm}                         % bold math
+\usepackage[latin1,utf8]{inputenc}      % Tipos de caracteres
+\usepackage[portuges]{babel}            % Português
+\usepackage{indentfirst}                % Identação da primeira linha
+\usepackage{hyperref}                   % add hypertext capabilities
+\usepackage{float}                      %Fixar imagens
+\usepackage{geometry}
+\usepackage{fullpage}
+
+\begin{document}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Início %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+
+\title{Sumário do projecto}
+\date{}
+\maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Introdução %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Identificação do grupo}
+O grupo de trabalho é constituído pelos seguintes elementos:
+
+\begin{center}
+	\begin{tabular}{lll}
+		Número mecanográfico	&Nome			&Curso	\\ \hline
+		72735					&António Samuel Ávila Balula	&MEFT	\\
+		73221					&Pedro Manuel Quintela Ribeiro	&MEFT	\\
+		73633					&Luís Filipe Guedelha Macedo 	&MEFT	\\
+	\end{tabular}
+\end{center}
+
+
+\aka{Identificação do projecto}{Project description}
+
+\subaka{Domínio Científico}{Scientific Domain}
+Como fica texto normal aqui no meio??
+\subaka{Área Científica Principal}{Main Area}
+\subaka{Área Científica Secundária}{Secondary Area}
+\subaka{Acrónimo}{Acronym}
+\subaka{Título do projecto (em português)}{Project title (in portuguese)}
+\subaka{Título do projecto (em Inglês)}{Project title (in english)}
+\subaka{Financiamento Solicitado}{Requested funding}
+\subaka{Palavra-chave 1}{Keyword 1}
+\subaka{Palavra-chave 2}{Keyword 2}
+\subaka{Palavra-chave 3}{Keyword 3}
+\subaka{Palavra-chave 4}{Keyword 4}
+\subaka{Data de início do projecto}{Sarting date}
+\subaka{Duração do projecto em meses}{Duration in months}
+
+\aka{Instituições envolvidas}{Institutions and their roles}
+
+\subaka{Instituição Proponente}{Principal Contractor}
+\subaka{Instituição Participante}{Participating Institution}
+\subaka{Unidade de Investigação}{Research Unit}
+\subaka{Unidade de Investigação Adicional}{Adicional Research Unit}
+\subaka{Instituição de Acolhimento}{Host Institution}
+
+\pagebreak
+
+\aka{Componente Científica}{Scientific Component}
+\subaka{Sumário}{Abstract}
+\subsubaka{Em português}{In Portuguese}
+ola!
+\subsubaka{Em inglês}{In English}
+\subsubaka{Para publicação - Em português}{For publication - In Portuguese}
+\subsubaka{Para publicação - Em inglês}{In English}
+
+\subaka{Descrição Técnica}{Technical Description}
+\subsubaka{Revisão da Literatura}{Literature Review}
+\subsubaka{Plano e Métodos}{Plan and Methods}
+\subsubaka{Tarefas}{Tasks}
+\subsubaka{Calendarização e Gestão do Projecto}{Project Timeline and Management}
+\subsubaka{Descrição da Estrutura de Gestão}{Description of the Management Structure}
+\subsubaka{Lista de Milestones}{Milestone List}
+\subsubaka{Cronograma}{Timeline}
+
+\subaka{Referências Bibliográficas}{Bibliographic References}
+\subaka{Publicações Anteriores}{Past Publications}
+\subaka{Ressubmissão de projectos}{Project ressubmission}
+\subsubaka{Ressubmissão?}{Ressubmission?}
+?
+\aka{Equipa de Investigação}{Research team}
+
+\aka{Outros Projectos}{Other projects}
+
+\aka{Indicadores previstos}{Expected indicators}
+
+\aka{Orçamento}{Budget}
+
+\aka{Justificação do orçamento}{Budget rationale}
+
+\aka{Ficheiros Anexos}{Attachments}
+
+
+
+
+
+
+
+
+
+%\section{Comentários Adicionais}
+%Não existem
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % % % % % % % % % % % % % % %     FIM    % % % % % % % % % % % % % % % % % % % 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+%end of file
