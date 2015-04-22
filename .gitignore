@@ -15,6 +15,14 @@
 **/sumario/*Notes.bib
 **/sumario/*.synctex.gz
 
+**/proposta/*.pdf
+**/proposta/*.log
+**/proposta/*.out
+**/proposta/*.aux
+**/proposta/*.blg
+**/proposta/*.bbl
+**/proposta/*Notes.bib
+**/proposta/*.synctex.gz
 *.swp
 *~
 **/build
